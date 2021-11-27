@@ -34,6 +34,7 @@ namespace UserMaintenance
             this.lblFullName = new System.Windows.Forms.Label();
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.btnFajlba = new System.Windows.Forms.Button();
+            this.btnTorles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listUsers
@@ -41,14 +42,14 @@ namespace UserMaintenance
             this.listUsers.FormattingEnabled = true;
             this.listUsers.Location = new System.Drawing.Point(12, 12);
             this.listUsers.Name = "listUsers";
-            this.listUsers.Size = new System.Drawing.Size(172, 381);
+            this.listUsers.Size = new System.Drawing.Size(172, 316);
             this.listUsers.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(227, 117);
+            this.btnAdd.Location = new System.Drawing.Point(203, 93);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(150, 23);
+            this.btnAdd.Size = new System.Drawing.Size(174, 23);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "button1";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -57,7 +58,7 @@ namespace UserMaintenance
             // lblFullName
             // 
             this.lblFullName.AutoSize = true;
-            this.lblFullName.Location = new System.Drawing.Point(200, 48);
+            this.lblFullName.Location = new System.Drawing.Point(200, 41);
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(35, 13);
             this.lblFullName.TabIndex = 6;
@@ -65,26 +66,37 @@ namespace UserMaintenance
             // 
             // txtFullName
             // 
-            this.txtFullName.Location = new System.Drawing.Point(277, 41);
+            this.txtFullName.Location = new System.Drawing.Point(263, 38);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(100, 20);
+            this.txtFullName.Size = new System.Drawing.Size(114, 20);
             this.txtFullName.TabIndex = 7;
             // 
             // btnFajlba
             // 
-            this.btnFajlba.Location = new System.Drawing.Point(227, 170);
+            this.btnFajlba.Location = new System.Drawing.Point(203, 196);
             this.btnFajlba.Name = "btnFajlba";
-            this.btnFajlba.Size = new System.Drawing.Size(150, 23);
+            this.btnFajlba.Size = new System.Drawing.Size(174, 23);
             this.btnFajlba.TabIndex = 8;
             this.btnFajlba.Text = "button1";
             this.btnFajlba.UseVisualStyleBackColor = true;
             this.btnFajlba.Click += new System.EventHandler(this.btnFajlba_Click);
             // 
+            // btnTorles
+            // 
+            this.btnTorles.Location = new System.Drawing.Point(203, 122);
+            this.btnTorles.Name = "btnTorles";
+            this.btnTorles.Size = new System.Drawing.Size(174, 23);
+            this.btnTorles.TabIndex = 9;
+            this.btnTorles.Text = "button1";
+            this.btnTorles.UseVisualStyleBackColor = true;
+            this.btnTorles.Click += new System.EventHandler(this.btnTorles_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 409);
+            this.ClientSize = new System.Drawing.Size(410, 345);
+            this.Controls.Add(this.btnTorles);
             this.Controls.Add(this.btnFajlba);
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.lblFullName);
@@ -104,6 +116,7 @@ namespace UserMaintenance
         private System.Windows.Forms.Label lblFullName;
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.Button btnFajlba;
+        private System.Windows.Forms.Button btnTorles;
     }
 }
 
