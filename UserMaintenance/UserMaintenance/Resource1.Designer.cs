@@ -70,20 +70,11 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Keresztnév.
+        ///   Looks up a localized string similar to Teljes név.
         /// </summary>
-        internal static string firstName {
+        internal static string FullName {
             get {
-                return ResourceManager.GetString("firstName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vezetéknév.
-        /// </summary>
-        internal static string lastName {
-            get {
-                return ResourceManager.GetString("lastName", resourceCulture);
+                return ResourceManager.GetString("FullName", resourceCulture);
             }
         }
     }
