@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Activities;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace UnitTestExample.Services
             if (oldAccount != null)
                 throw new ApplicationException(
                     "Már létezik felhasználó ilyen e-mail címmel!");
-
+            account.ID = Guid.NewGuid();
             Accounts.Add(account);
 
             return account;
