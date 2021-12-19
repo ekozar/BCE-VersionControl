@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikroszimulacio_efo7kr", "Mikroszimulacio_efo7kr\Mikroszimulacio_efo7kr.csproj", "{167E8F37-B188-4828-880C-236F3E20193C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167E8F37-B188-4828-880C-236F3E20193C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167E8F37-B188-4828-880C-236F3E20193C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167E8F37-B188-4828-880C-236F3E20193C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167E8F37-B188-4828-880C-236F3E20193C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FAB8F07-7635-4F05-82AA-E92DD4E8C198}
+	EndGlobalSection
+EndGlobal
